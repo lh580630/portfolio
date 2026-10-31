@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>梁辉 · 剪辑包装师 | 作品集 2026</title>
+<meta name="description" content="梁辉，剪辑包装师。AE 特效 / MG 动画 / 实拍合成 / 宣传片包装 / 口播信息流，43 部作品在线放映。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231d1d1f'/%3E%3Cpath d='M13 10.5v11l9-5.5z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- 顶部滚动进度 -->
+<div class="scroll-progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+<!-- 导航 -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#hero">梁辉<span class="dot">.</span>Reel</a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="#reel">Showreel</a>
+      <a href="#works">作品</a>
+      <a href="#capabilities">能力</a>
+      <a href="#career">经历</a>
+      <a href="#about">关于</a>
+      <a href="#contact" class="nav-cta">联系我</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="展开菜单" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-media">
+      <!-- 首屏背景：全部作品封面拼成的暗色拼贴 -->
+      <img class="hero-img" src="assets/images/hero-mosaic.jpg" alt="" style="width:100%;height:100%;object-fit:cover">
+    </div>
+    <div class="hero-scrim" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">剪辑包装师 · 作品集 2026</p>
+      <h1 class="hero-title reveal" data-delay="1">让每一帧<br>值得停留</h1>
+      <p class="hero-sub reveal" data-delay="2">AE 特效 / MG 动画 / 实拍合成 / 宣传片包装<br>求职方向：剪辑包装师 · 期望城市：杭州</p>
+      <div class="hero-actions reveal" data-delay="3">
+        <a class="btn btn-primary" href="#reel">观看 Showreel</a>
+        <a class="btn btn-ghost" href="#works">浏览 43 部作品 →</a>
+      </div>
+    </div>
+
+    <div class="hero-meta reveal" data-delay="4">
+      <div class="hero-meta-item"><strong id="statWorks">43</strong><span>部作品</span></div>
+      <div class="hero-meta-item"><strong id="statExp">1</strong><span>年项目经验</span></div>
+      <div class="hero-meta-item"><strong id="statClients">9</strong><span>类制作方向</span></div>
+    </div>
+
+    <a class="scroll-hint" href="#reel" aria-label="向下滚动">
+      <span class="mouse"><span class="wheel"></span></span>
+    </a>
+  </section>
+
+  <!-- ============ SHOWREEL ============ -->
+  <section class="section section--reel" id="reel">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Showreel</p>
+        <h2 class="sec-title">出品集锦</h2>
+        <p class="sec-desc">从代表作品中各取片段拼合，一镜看完制作范围。</p>
+      </header>
+
+      <figure class="player reveal" data-delay="1">
+        <div class="player-frame" id="reelFrame"
+             data-video="assets/videos/showreel.mp4"
+             data-poster="assets/images/showreel.jpg"
+             style="background-image:url(assets/images/showreel.jpg);background-size:cover;background-position:center">
+          <button class="play-btn" type="button" aria-label="播放 Showreel">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+        <figcaption>Showreel 2026 · 由十三部代表作品片段拼合</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ WORKS ============ -->
+  <section class="section" id="works">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Selected works</p>
+        <h2 class="sec-title">精选作品</h2>
+        <p class="sec-desc">按制作方向分类，点开即可播放。鼠标悬停 / 触屏点击播放按钮观看。</p>
+      </header>
+
+      <div class="filters reveal" data-delay="1" role="tablist" aria-label="作品分类">
+        <button class="chip is-active" data-filter="all" role="tab" aria-selected="true">全部</button>
+        <button class="chip" data-filter="promo" role="tab" aria-selected="false">宣传片</button>
+        <button class="chip" data-filter="track" role="tab" aria-selected="false">实景跟踪</button>
+        <button class="chip" data-filter="film" role="tab" aria-selected="false">微电影</button>
+        <button class="chip" data-filter="c3d" role="tab" aria-selected="false">三维</button>
+        <button class="chip" data-filter="pack" role="tab" aria-selected="false">包装合成</button>
+        <button class="chip" data-filter="vfx" role="tab" aria-selected="false">粒子特效</button>
+        <button class="chip" data-filter="beat" role="tab" aria-selected="false">混剪卡点</button>
+        <button class="chip" data-filter="ad" role="tab" aria-selected="false">口播信息流</button>
+        <button class="chip" data-filter="mg" role="tab" aria-selected="false">MG 动画</button>
+      </div>
+
+      <div class="works-grid" id="worksGrid">
+        <!--CARDS-->
+        <article class="card reveal" data-cat="promo" data-video="assets/videos/datamesh.mp4" data-title="《DataMesh》特效包装">
+          <div class="card-thumb">
+            <img src="assets/images/datamesh.jpg" alt="《DataMesh》特效包装" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>《DataMesh》特效包装</h3><span class="year">宣传片</span></div>
+            <p class="card-role">宣传片</p>
+            <p class="card-note">城市数据可视化与特效包装</p>
+            <ul class="tags"><li>After Effects</li><li>摄像机跟踪</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="promo" data-video="assets/videos/wuliangye.mp4" data-title="五粮液宣传片">
+          <div class="card-thumb">
+            <img src="assets/images/wuliangye.jpg" alt="五粮液宣传片" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>五粮液宣传片</h3><span class="year">宣传片</span></div>
+            <p class="card-role">宣传片</p>
+            <p class="card-note">品牌叙事与片头包装</p>
+            <ul class="tags"><li>After Effects</li><li>Premiere</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="promo" data-video="assets/videos/langjiu.mp4" data-title="郎酒宣传片">
+          <div class="card-thumb">
+            <img src="assets/images/langjiu.jpg" alt="郎酒宣传片" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>郎酒宣传片</h3><span class="year">宣传片</span></div>
+            <p class="card-role">宣传片</p>
+            <p class="card-note">全片剪辑与字幕版式</p>
+            <ul class="tags"><li>After Effects</li><li>Premiere</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="promo" data-video="assets/videos/huanbao.mp4" data-title="环保宣传片">
+          <div class="card-thumb">
+            <img src="assets/images/huanbao.jpg" alt="环保宣传片" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>环保宣传片</h3><span class="year">宣传片</span></div>
+            <p class="card-role">宣传片</p>
+            <p class="card-note">素材筛选与叙事节奏</p>
+            <ul class="tags"><li>Premiere</li><li>调色</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="track" data-video="assets/videos/cscec-city.mp4" data-title="中建八局数字城市">
+          <div class="card-thumb">
+            <img src="assets/images/cscec-city.jpg" alt="中建八局数字城市" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>中建八局数字城市</h3><span class="year">实景跟踪</span></div>
+            <p class="card-role">实景跟踪</p>
+            <p class="card-note">实景跟踪与城市光流</p>
+            <ul class="tags"><li>摄像机跟踪</li><li>AE 合成</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="track" data-video="assets/videos/canton-tower.mp4" data-title="广州塔地标合成">
+          <div class="card-thumb">
+            <img src="assets/images/canton-tower.jpg" alt="广州塔地标合成" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>广州塔地标合成</h3><span class="year">实景跟踪</span></div>
+            <p class="card-role">实景跟踪</p>
+            <p class="card-note">定点跟踪与光效贴合</p>
+            <ul class="tags"><li>摄像机跟踪</li><li>AE 合成</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="track" data-video="assets/videos/cyber-street.mp4" data-title="赛博街道包装">
+          <div class="card-thumb">
+            <img src="assets/images/cyber-street.jpg" alt="赛博街道包装" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>赛博街道包装</h3><span class="year">实景跟踪</span></div>
+            <p class="card-role">实景跟踪</p>
+            <p class="card-note">霓虹光影与街区合成</p>
+            <ul class="tags"><li>AE 合成</li><li>调色匹配</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="track" data-video="assets/videos/particle-beam.mp4" data-title="粒子光束飞升">
+          <div class="card-thumb">
+            <img src="assets/images/particle-beam.jpg" alt="粒子光束飞升" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>粒子光束飞升</h3><span class="year">实景跟踪</span></div>
+            <p class="card-role">实景跟踪</p>
+            <p class="card-note">跟踪定位与光束特效</p>
+            <ul class="tags"><li>摄像机跟踪</li><li>Particular</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="track" data-video="assets/videos/fruit-world.mp4" data-title="水果世界实景合成">
+          <div class="card-thumb">
+            <img src="assets/images/fruit-world.jpg" alt="水果世界实景合成" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>水果世界实景合成</h3><span class="year">实景跟踪</span></div>
+            <p class="card-role">实景跟踪</p>
+            <p class="card-note">CG 元素与实拍融合</p>
+            <ul class="tags"><li>AE 合成</li><li>抠像</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="track" data-video="assets/videos/keying-comp.mp4" data-title="抠像合成">
+          <div class="card-thumb">
+            <img src="assets/images/keying-comp.jpg" alt="抠像合成" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>抠像合成</h3><span class="year">实景跟踪</span></div>
+            <p class="card-role">实景跟踪</p>
+            <p class="card-note">绿幕抠像与场景融合</p>
+            <ul class="tags"><li>抠像</li><li>调色匹配</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="film" data-video="assets/videos/film-silence.mp4" data-title="微电影《无声》">
+          <div class="card-thumb">
+            <img src="assets/images/film-silence.jpg" alt="微电影《无声》" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>微电影《无声》</h3><span class="year">微电影</span></div>
+            <p class="card-role">微电影</p>
+            <p class="card-note">全片剪辑与片头包装</p>
+            <ul class="tags"><li>Premiere</li><li>After Effects</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="c3d" data-video="assets/videos/jiangjinjiu-ink.mp4" data-title="《将进酒》水墨三维">
+          <div class="card-thumb">
+            <img src="assets/images/jiangjinjiu-ink.jpg" alt="《将进酒》水墨三维" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>《将进酒》水墨三维</h3><span class="year">三维</span></div>
+            <p class="card-role">三维</p>
+            <p class="card-note">国风水墨三维片头</p>
+            <ul class="tags"><li>三维合成</li><li>国风视觉</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="c3d" data-video="assets/videos/ink-opening.mp4" data-title="水墨片头">
+          <div class="card-thumb">
+            <img src="assets/images/ink-opening.jpg" alt="水墨片头" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>水墨片头</h3><span class="year">三维</span></div>
+            <p class="card-role">三维</p>
+            <p class="card-note">墨迹扩散笔触动效</p>
+            <ul class="tags"><li>三维合成</li><li>水墨风格</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="pack" data-video="assets/videos/robot-vacuum.mp4" data-title="扫地机器人包装">
+          <div class="card-thumb">
+            <img src="assets/images/robot-vacuum.jpg" alt="扫地机器人包装" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>扫地机器人包装</h3><span class="year">包装合成</span></div>
+            <p class="card-role">包装合成</p>
+            <p class="card-note">卖点可视化与标注动效</p>
+            <ul class="tags"><li>After Effects</li><li>产品演示</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="pack" data-video="assets/videos/charge-gun.mp4" data-title="充电枪包装">
+          <div class="card-thumb">
+            <img src="assets/images/charge-gun.jpg" alt="充电枪包装" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>充电枪包装</h3><span class="year">包装合成</span></div>
+            <p class="card-role">包装合成</p>
+            <p class="card-note">科技光流转场演绎</p>
+            <ul class="tags"><li>After Effects</li><li>光效</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="pack" data-video="assets/videos/zuoyebang.mp4" data-title="作业帮老师介绍">
+          <div class="card-thumb">
+            <img src="assets/images/zuoyebang.jpg" alt="作业帮老师介绍" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>作业帮老师介绍</h3><span class="year">包装合成</span></div>
+            <p class="card-role">包装合成</p>
+            <p class="card-note">人物信息版式包装</p>
+            <ul class="tags"><li>After Effects</li><li>版式设计</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="pack" data-video="assets/videos/app-demo-pack.mp4" data-title="App 演示包装">
+          <div class="card-thumb">
+            <img src="assets/images/app-demo-pack.jpg" alt="App 演示包装" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>App 演示包装</h3><span class="year">包装合成</span></div>
+            <p class="card-role">包装合成</p>
+            <p class="card-note">界面演示与动线引导</p>
+            <ul class="tags"><li>After Effects</li><li>UI 动效</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="pack" data-video="assets/videos/newyear-dynamic.mp4" data-title="跨年嗨翻天动态">
+          <div class="card-thumb">
+            <img src="assets/images/newyear-dynamic.jpg" alt="跨年嗨翻天动态" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>跨年嗨翻天动态</h3><span class="year">包装合成</span></div>
+            <p class="card-role">包装合成</p>
+            <p class="card-note">活动主视觉动效</p>
+            <ul class="tags"><li>After Effects</li><li>活动视觉</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="vfx" data-video="assets/videos/wuyue-form.mp4" data-title="吴越东方 Form 粒子">
+          <div class="card-thumb">
+            <img src="assets/images/wuyue-form.jpg" alt="吴越东方 Form 粒子" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>吴越东方 Form 粒子</h3><span class="year">粒子特效</span></div>
+            <p class="card-role">粒子特效</p>
+            <p class="card-note">Form 粒子地形演绎</p>
+            <ul class="tags"><li>After Effects</li><li>Form</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="vfx" data-video="assets/videos/particle-waterfall.mp4" data-title="粒子瀑布">
+          <div class="card-thumb">
+            <img src="assets/images/particle-waterfall.jpg" alt="粒子瀑布" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>粒子瀑布</h3><span class="year">粒子特效</span></div>
+            <p class="card-role">粒子特效</p>
+            <p class="card-note">流体粒子与重力模拟</p>
+            <ul class="tags"><li>After Effects</li><li>Particular</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="vfx" data-video="assets/videos/metal-gather.mp4" data-title="金属文字汇集">
+          <div class="card-thumb">
+            <img src="assets/images/metal-gather.jpg" alt="金属文字汇集" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>金属文字汇集</h3><span class="year">粒子特效</span></div>
+            <p class="card-role">粒子特效</p>
+            <p class="card-note">金属材质粒子汇聚</p>
+            <ul class="tags"><li>After Effects</li><li>Particular</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="vfx" data-video="assets/videos/metal-dissolve.mp4" data-title="金属文字消散">
+          <div class="card-thumb">
+            <img src="assets/images/metal-dissolve.jpg" alt="金属文字消散" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>金属文字消散</h3><span class="year">粒子特效</span></div>
+            <p class="card-role">粒子特效</p>
+            <p class="card-note">粒子消散与光斑叠加</p>
+            <ul class="tags"><li>After Effects</li><li>Particular</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="vfx" data-video="assets/videos/butterfly.mp4" data-title="蝴蝶粒子">
+          <div class="card-thumb">
+            <img src="assets/images/butterfly.jpg" alt="蝴蝶粒子" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>蝴蝶粒子</h3><span class="year">粒子特效</span></div>
+            <p class="card-role">粒子特效</p>
+            <p class="card-note">Form 粒子形态变换</p>
+            <ul class="tags"><li>After Effects</li><li>Form</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="vfx" data-video="assets/videos/golden-glow.mp4" data-title="金色光芒">
+          <div class="card-thumb">
+            <img src="assets/images/golden-glow.jpg" alt="金色光芒" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>金色光芒</h3><span class="year">粒子特效</span></div>
+            <p class="card-role">粒子特效</p>
+            <p class="card-note">光斑与尘埃氛围营造</p>
+            <ul class="tags"><li>After Effects</li><li>光效</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="vfx" data-video="assets/videos/figure-dissolve.mp4" data-title="人物消失">
+          <div class="card-thumb">
+            <img src="assets/images/figure-dissolve.jpg" alt="人物消失" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>人物消失</h3><span class="year">粒子特效</span></div>
+            <p class="card-role">粒子特效</p>
+            <p class="card-note">粒子溶解转场练习</p>
+            <ul class="tags"><li>After Effects</li><li>Particular</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="beat" data-video="assets/videos/kimetsu-beat.mp4" data-title="进阶鬼灭卡点">
+          <div class="card-thumb">
+            <img src="assets/images/kimetsu-beat.jpg" alt="进阶鬼灭卡点" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>进阶鬼灭卡点</h3><span class="year">混剪卡点</span></div>
+            <p class="card-role">混剪卡点</p>
+            <p class="card-note">高燃卡点与画面调色</p>
+            <ul class="tags"><li>卡点混剪</li><li>调色</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="beat" data-video="assets/videos/anime-beat2.mp4" data-title="动漫混剪卡点 2">
+          <div class="card-thumb">
+            <img src="assets/images/anime-beat2.jpg" alt="动漫混剪卡点 2" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>动漫混剪卡点 2</h3><span class="year">混剪卡点</span></div>
+            <p class="card-role">混剪卡点</p>
+            <p class="card-note">转场设计与变速处理</p>
+            <ul class="tags"><li>卡点混剪</li><li>AE 转场</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="beat" data-video="assets/videos/anime-beat.mp4" data-title="动漫混剪卡点">
+          <div class="card-thumb">
+            <img src="assets/images/anime-beat.jpg" alt="动漫混剪卡点" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>动漫混剪卡点</h3><span class="year">混剪卡点</span></div>
+            <p class="card-role">混剪卡点</p>
+            <p class="card-note">卡点节奏与镜头组接</p>
+            <ul class="tags"><li>卡点混剪</li><li>调色</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="ad" data-video="assets/videos/stock-talk.mp4" data-title="炒股口播">
+          <div class="card-thumb">
+            <img src="assets/images/stock-talk.jpg" alt="炒股口播" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>炒股口播</h3><span class="year">口播信息流</span></div>
+            <p class="card-role">口播信息流</p>
+            <p class="card-note">数据动效与口播包装</p>
+            <ul class="tags"><li>After Effects</li><li>信息可视化</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="ad" data-video="assets/videos/medical-talk.mp4" data-title="医美口播">
+          <div class="card-thumb">
+            <img src="assets/images/medical-talk.jpg" alt="医美口播" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>医美口播</h3><span class="year">口播信息流</span></div>
+            <p class="card-role">口播信息流</p>
+            <p class="card-note">竖屏口播与字幕包装</p>
+            <ul class="tags"><li>Premiere</li><li>字幕动效</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="ad" data-video="assets/videos/beauty-live.mp4" data-title="护肤品带货短片">
+          <div class="card-thumb">
+            <img src="assets/images/beauty-live.jpg" alt="护肤品带货短片" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>护肤品带货短片</h3><span class="year">口播信息流</span></div>
+            <p class="card-role">口播信息流</p>
+            <p class="card-note">信息流节奏与卖点字幕</p>
+            <ul class="tags"><li>Premiere</li><li>信息流剪辑</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="ad" data-video="assets/videos/egg-live.mp4" data-title="农产品带货短片">
+          <div class="card-thumb">
+            <img src="assets/images/egg-live.jpg" alt="农产品带货短片" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>农产品带货短片</h3><span class="year">口播信息流</span></div>
+            <p class="card-role">口播信息流</p>
+            <p class="card-note">口播串联与画面包装</p>
+            <ul class="tags"><li>Premiere</li><li>信息流剪辑</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="ad" data-video="assets/videos/interview.mp4" data-title="机构学员采访">
+          <div class="card-thumb">
+            <img src="assets/images/interview.jpg" alt="机构学员采访" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>机构学员采访</h3><span class="year">口播信息流</span></div>
+            <p class="card-role">口播信息流</p>
+            <p class="card-note">访谈剪辑与多机位组接</p>
+            <ul class="tags"><li>Premiere</li><li>访谈剪辑</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="mg" data-video="assets/videos/coca-cola-ball.mp4" data-title="可口可乐小球广告">
+          <div class="card-thumb">
+            <img src="assets/images/coca-cola-ball.jpg" alt="可口可乐小球广告" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>可口可乐小球广告</h3><span class="year">MG 动画</span></div>
+            <p class="card-role">MG 动画</p>
+            <p class="card-note">产品 CG 与品牌动效演绎</p>
+            <ul class="tags"><li>After Effects</li><li>产品动效</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="mg" data-video="assets/videos/personified.mp4" data-title="拟人化物品">
+          <div class="card-thumb">
+            <img src="assets/images/personified.jpg" alt="拟人化物品" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>拟人化物品</h3><span class="year">MG 动画</span></div>
+            <p class="card-role">MG 动画</p>
+            <p class="card-note">拟人表演与口型同步</p>
+            <ul class="tags"><li>After Effects</li><li>角色动画</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="mg" data-video="assets/videos/trump-speech.mp4" data-title="演讲 MG 包装">
+          <div class="card-thumb">
+            <img src="assets/images/trump-speech.jpg" alt="演讲 MG 包装" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>演讲 MG 包装</h3><span class="year">MG 动画</span></div>
+            <p class="card-role">MG 动画</p>
+            <p class="card-note">口播画面信息可视化</p>
+            <ul class="tags"><li>After Effects</li><li>信息图表</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="mg" data-video="assets/videos/scene-interaction.mp4" data-title="画面场景交互">
+          <div class="card-thumb">
+            <img src="assets/images/scene-interaction.jpg" alt="画面场景交互" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>画面场景交互</h3><span class="year">MG 动画</span></div>
+            <p class="card-role">MG 动画</p>
+            <p class="card-note">多图层场景联动</p>
+            <ul class="tags"><li>After Effects</li><li>场景动效</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="mg" data-video="assets/videos/frosted-ball.mp4" data-title="磨砂玻璃小球">
+          <div class="card-thumb">
+            <img src="assets/images/frosted-ball.jpg" alt="磨砂玻璃小球" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>磨砂玻璃小球</h3><span class="year">MG 动画</span></div>
+            <p class="card-role">MG 动画</p>
+            <p class="card-note">材质质感与光影表现</p>
+            <ul class="tags"><li>After Effects</li><li>材质表现</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="mg" data-video="assets/videos/ball-to-text.mp4" data-title="小球弹起变文字">
+          <div class="card-thumb">
+            <img src="assets/images/ball-to-text.jpg" alt="小球弹起变文字" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>小球弹起变文字</h3><span class="year">MG 动画</span></div>
+            <p class="card-role">MG 动画</p>
+            <p class="card-note">形变转场与运动曲线</p>
+            <ul class="tags"><li>After Effects</li><li>MG 动效</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="mg" data-video="assets/videos/ms-logo.mp4" data-title="微软 Logo 演绎">
+          <div class="card-thumb">
+            <img src="assets/images/ms-logo.jpg" alt="微软 Logo 演绎" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>微软 Logo 演绎</h3><span class="year">MG 动画</span></div>
+            <p class="card-role">MG 动画</p>
+            <p class="card-note">Logo 揭幕动效</p>
+            <ul class="tags"><li>After Effects</li><li>Logo 动画</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="mg" data-video="assets/videos/robot-anim.mp4" data-title="小机器人动画">
+          <div class="card-thumb">
+            <img src="assets/images/robot-anim.jpg" alt="小机器人动画" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>小机器人动画</h3><span class="year">MG 动画</span></div>
+            <p class="card-role">MG 动画</p>
+            <p class="card-note">角色绑定与弹性运动</p>
+            <ul class="tags"><li>After Effects</li><li>表达式</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="mg" data-video="assets/videos/shapes.mp4" data-title="形状效果合集">
+          <div class="card-thumb">
+            <img src="assets/images/shapes.jpg" alt="形状效果合集" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>形状效果合集</h3><span class="year">MG 动画</span></div>
+            <p class="card-role">MG 动画</p>
+            <p class="card-note">Shape 图层技法汇总</p>
+            <ul class="tags"><li>After Effects</li><li>形状图层</li></ul>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="mg" data-video="assets/videos/slot-machine.mp4" data-title="老虎机抽奖动效">
+          <div class="card-thumb">
+            <img src="assets/images/slot-machine.jpg" alt="老虎机抽奖动效" loading="lazy" decoding="async">
+            <span class="card-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="card-body">
+            <div class="card-top"><h3>老虎机抽奖动效</h3><span class="year">MG 动画</span></div>
+            <p class="card-role">MG 动画</p>
+            <p class="card-note">互动抽奖 MG 设计</p>
+            <ul class="tags"><li>After Effects</li><li>MG 动效</li></ul>
+          </div>
+        </article>
+        <!--/CARDS-->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPABILITIES ============ -->
+  <section class="section section--tight" id="capabilities">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Capabilities</p>
+        <h2 class="sec-title">能力矩阵</h2>
+      </header>
+      <div class="cap-grid">
+        <div class="cap reveal">
+          <span class="cap-icon icon-cut" aria-hidden="true"></span>
+          <h3>剪辑叙事</h3>
+          <p>PR / 剪映 完成粗剪、精剪与串片，把控整片节奏与情绪线。</p>
+        </div>
+        <div class="cap reveal" data-delay="1">
+          <span class="cap-icon icon-motion" aria-hidden="true"></span>
+          <h3>MG 动效</h3>
+          <p>图形动画、动态字幕、版式演绎，统一栏目与活动视觉。</p>
+        </div>
+        <div class="cap reveal" data-delay="2">
+          <span class="cap-icon icon-3d" aria-hidden="true"></span>
+          <h3>三维合成</h3>
+          <p>AE 三维图层与摄像机做空间运动，输出风格化片头。</p>
+        </div>
+        <div class="cap reveal">
+          <span class="cap-icon icon-comp" aria-hidden="true"></span>
+          <h3>实拍合成</h3>
+          <p>摄像机跟踪、抠像、调色匹配，把特效稳稳贴进真实镜头。</p>
+        </div>
+        <div class="cap reveal" data-delay="1">
+          <span class="cap-icon icon-grade" aria-hidden="true"></span>
+          <h3>调色与混音</h3>
+          <p>统一全片色彩氛围，音频对齐混音，保障多平台成片观感。</p>
+        </div>
+        <div class="cap reveal" data-delay="2">
+          <span class="cap-icon icon-sound" aria-hidden="true"></span>
+          <h3>平面与 AIGC 素材</h3>
+          <p>PS / AI 制作包装版式与分层素材，并用 AI 工具生成画面元素。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TOOLKIT ============ -->
+  <section class="section section--dark" id="toolkit">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Toolkit</p>
+        <h2 class="sec-title">常用工具</h2>
+        <p class="sec-desc">AE 为主力，配合 PR / 剪映 完成剪辑，插件用于光效与粒子。</p>
+      </header>
+      <ul class="tool-list reveal" data-delay="1">
+        <li>After Effects</li><li>Premiere Pro</li><li>剪映</li><li>Photoshop</li>
+        <li>Illustrator</li><li>Trapcode 系列</li><li>Red Giant 系列</li>
+        <li>AIGC 工具</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CAREER ============ -->
+  <section class="section" id="career">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Experience</p>
+        <h2 class="sec-title">经历</h2>
+      </header>
+      <ol class="timeline">
+        <li class="reveal">
+          <div class="tl-time">2025.10 — 2026.10</div>
+          <div class="tl-body">
+            <h3>江苏连云港蓝语传媒有限公司 · 剪辑师</h3>
+            <ul>
+              <li>用 AE 完成栏目片头片尾、动态字幕、图形动画、粒子光效与数字城市类视觉包装。</li>
+              <li>用 PR / 剪映做粗剪精剪、画面调色、音频对齐混音与字幕校对，产出短视频与短片样片。</li>
+              <li>累计独立完成数十份后期包装与剪辑样片，全部收入个人作品集。</li>
+              <li>规范素材命名与工程分层，减少反复修改后的渲染耗时。</li>
+            </ul>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="tl-time">2022 — 2026</div>
+          <div class="tl-body">
+            <h3>浙江药科职业大学 · 本科 企业数字化管理</h3>
+            <ul>
+              <li>校园微电影拍摄剪辑获一等奖。</li>
+              <li>独立完成实训微电影《无声》全流程制作，输出成片用于内部成果展。</li>
+              <li>掌握 AE / PR / PS / AI 全链路，并延伸至 AIGC 素材生成。</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ 题材方向 ============ -->
+  <section class="section section--tight section--soft" id="topics">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Topics</p>
+        <h2 class="sec-title">涉及题材</h2>
+        <p class="sec-desc">来自实际作品覆盖的制作方向。</p>
+      </header>
+      <div class="client-wall reveal" data-delay="1">
+        <span>白酒品牌</span><span>公益环保</span><span>数字城市</span><span>家电数码</span>
+        <span>教育培训</span><span>电商带货</span><span>金融口播</span><span>节庆活动</span>
+        <span>动漫二次元</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="wrap about-wrap">
+      <div class="about-portrait reveal">
+        <img src="assets/images/portrait.jpg" alt="梁辉" style="width:100%;border-radius:var(--r-lg)">
+      </div>
+      <div class="about-text reveal" data-delay="1">
+        <p class="eyebrow">About</p>
+        <h2 class="sec-title">关于我</h2>
+        <p>我是梁辉，剪辑包装师。从素材整理、粗剪精剪，到 AE 动效包装、实拍合成与最终输出，整条链路我可以一个人跑通。</p>
+        <p>过去一年在蓝语传媒做栏目包装、动态字幕、粒子光效和数字城市类项目，也用 PR / 剪映处理口播、带货与访谈类短视频。做久了习惯先把工程分层、素材归类做规范，改稿时才不会乱。</p>
+        <p>我喜欢研究新的表达方式和插件写法，也在用 AIGC 工具补画面素材。想找一份能持续打磨画面质感的工作。</p>
+        <ul class="about-facts">
+          <li><strong>所在地</strong><span>湖州 · 期望城市：杭州</span></li>
+          <li><strong>求职方向</strong><span>剪辑包装师 · 7-9K</span></li>
+          <li><strong>项目经验</strong><span>1 年（蓝语传媒）</span></li>
+          <li><strong>到岗</strong><span>随时</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section--dark section--contact" id="contact">
+    <div class="wrap">
+      <div class="contact-inner reveal">
+        <p class="eyebrow">Contact</p>
+        <h2 class="contact-title">有合适的机会？</h2>
+        <p class="contact-sub">邮件或电话都行，附带本职要求与 timeline，我一般当天回复。</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary btn-lg" href="mailto:uyfdfr515ah01@163.com">uyfdfr515ah01@163.com</a>
+          <a class="btn btn-ghost-light btn-lg" href="assets/files/resume-lianghui.pdf" download>下载简历 PDF</a>
+          <a class="btn btn-ghost-light btn-lg" href="tel:18268290630">182 6829 0630</a>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:uyfdfr515ah01@163.com">邮箱</a>
+          <a href="tel:18268290630">电话</a>
+          <a href="assets/files/resume-lianghui.pdf" download>简历</a>
+          <a href="assets/files/resume-lianghui.pdf" download>作品清单</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span>© 2026 梁辉 · 剪辑包装师作品集</span>
+    <span class="footer-note">AE · PR · MG · VFX</span>
+    <a href="#hero" class="to-top">回到顶部 ↑</a>
+  </div>
+</footer>
+
+<!-- 视频灯箱 -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="视频播放" hidden>
+  <button class="lb-close" id="lbClose" aria-label="关闭">×</button>
+  <div class="lb-stage" id="lbStage"></div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
